@@ -1,12 +1,12 @@
 # AIxcellent Vibes at GermEval 2025 Shared Task on Candy Speech Detection
 
 ## Results
-| Subtask | Submission | Model              | (strict) F1 Score |
-|---------|------------|--------------------|------------------:|
-|       1 |          1 | Qwen3-Embedding-8B |             0.875 |
-|       1 |          2 | XLM-RoBERTa-Large  |             0.891 |
-|       2 |          1 | GBERT-Large        |             0.623 |
-|       2 |          2 | XLM-RoBERTa-Large  |             0.631 |
+| Subtask | Submission | Model              | (strict) F1 Score | |
+|---------|------------|--------------------|------------------:|-|
+|       1 |          1 | Qwen3-Embedding-8B |             0.875 | [Notebook](https://github.com/dslaborg/germeval2025/blob/main/subtask_1/submission_subtask1.ipynb) |
+|       1 |          2 | XLM-RoBERTa-Large  |             0.891 | [Notebook](https://github.com/dslaborg/germeval2025/blob/main/subtask_1/submission_subtask1-2.ipynb) |
+|       2 |          1 | GBERT-Large        |             0.623 | [Notebook](https://github.com/dslaborg/germeval2025/blob/main/subtask_2/submission_subtask2.ipynb) |
+|       2 |          2 | XLM-RoBERTa-Large  |             0.631 | [Notebook](https://github.com/dslaborg/germeval2025/blob/main/subtask_2/submission_subtask2-2.ipynb) |
 
 
 ## Setup 
