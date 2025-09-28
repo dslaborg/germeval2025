@@ -59,10 +59,10 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
-COPY subtask2_final_gradio.py .
+COPY app.py .
 
 # Create directory for model weights
-RUN mkdir -p experiments/exp027
+RUN mkdir -p model
 
 # Set CUDA environment variables
 ENV CUDA_DEVICE_ORDER=PCI_BUS_ID
@@ -76,4 +76,4 @@ RUN useradd -m -u 1002 appuser && chown -R appuser:appuser /app
 USER appuser
 
 # Command to run the application
-CMD ["python", "subtask2_final_gradio.py"]
+CMD ["python", "app.py"]

@@ -601,7 +601,7 @@ if __name__ == "__main__":
         id2label=classifier.id2label,
         label2id=classifier.label2id
     )
-    classifier.model.load_state_dict(torch.load('./experiments/exp027/exp027-2_retraining_final_model.pth'))
+    classifier.model.load_state_dict(torch.load('./model/subtask2_final_model.pth'))
     classifier.model.eval()
 
     print("Modell geladen! Starte Gradio-Interface...")
