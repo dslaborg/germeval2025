@@ -1,3 +1,15 @@
+---
+title: AIxcellent Vibes at GermEval 2025 Shared Task on Candy Speech Detection
+emoji: 🍭
+colorFrom: yellow
+colorTo: pink
+sdk: gradio
+python_version: "3.12.9"
+sdk_version: "5.35.0"
+app_file: app.py
+pinned: true
+---
+
 # AIxcellent Vibes at GermEval 2025 Shared Task on Candy Speech Detection 🍭
 
 ## Results
