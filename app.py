@@ -596,12 +596,13 @@ if __name__ == "__main__":
     classifier = SpanClassifierWithStrictF1('xlm-roberta-large')
 
     classifier.model = AutoModelForTokenClassification.from_pretrained(
-        'xlm-roberta-large',
+        'cortex359/germeval2025',
+        torch_dtype="auto",
         num_labels=len(classifier.labels),
         id2label=classifier.id2label,
         label2id=classifier.label2id
     )
-    classifier.model.load_state_dict(torch.load('./model/subtask2_final_model.pth'))
+    #classifier.model.load_state_dict(torch.load('./model/subtask2_final_model.pth'))
     classifier.model.eval()
 
     print("Modell geladen! Starte Gradio-Interface...")
